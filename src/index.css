@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+    @media (min-width: 320px) { 
+    .box{
+        @apply flex-wrap
+      }
+      .text{
+        @apply justify-center
+      }
+}}
